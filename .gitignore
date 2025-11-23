@@ -1,0 +1,32 @@
+# 1. File biên dịch của Python (Bytecode)
+# Python tự tạo ra khi chạy
+__pycache__/
+*.pyc
+
+# 2. Môi trường ảo (Virtual Environment)
+# Đây là folder chứa thư viện, rất nặng và phụ thuộc vào máy cá nhân
+# Người khác sẽ cài lại thư viện dựa trên file requirements.txt chứ không copy folder này
+venv/
+env/
+.env
+
+# 3. File rác của Hệ điều hành (OS)
+.DS_Store
+Thumbs.db
+
+# 4. Cấu hình riêng của IDE (VS Code, PyCharm)
+# Setting cá nhân của bạn không nên áp đặt lên người khác
+.vscode/
+.idea/
+
+# 5. Dữ liệu (DATA MINDSET)
+# Code thì cần chia sẻ, nhưng dữ liệu cá nhân thì nên giữ lại máy local
+# Chỉ ignore file dữ liệu thật, vẫn giữ folder data/
+data/tasks.json
+
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+data/tasks.json
+.pytest_cache/
