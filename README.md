@@ -22,7 +22,7 @@ Một ứng dụng quản lý công việc dòng lệnh (Command Line Interface)
 
 1.  **Clone dự án:**
     ```bash
-    git clone [https://github.com/USERNAME_CUA_BAN/todo-cli.git](https://github.com/kimquyhuynh2005/todo-cli.git)
+    git clone https://github.com/kimquyhuynh2005/todo-cli.git
     cd todo-cli
     ```
 
